@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Currency Exchange</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <div class="block">
+      <div class="container">
+        <h2 class="heading">Currency Converter</h2>
+        <p class="p">Enter Amount :</p>
+        <input type="number" name="enter amount" class="amount" value="1" />
+        <div class="select">
+          <div class="from">
+            <h4>From</h4>
+            <div class="line">
+              <div class="img1">
+                <img src="https://flagsapi.com/PK/flat/64.png" />
+              </div>
+              <select name="from" class="dropdown dropdown1"></select>
+            </div>
+          </div>
+          <i class="fa fa-arrow-right-arrow-left"></i>
+          <div class="to">
+            <h4>TO</h4>
+            <div class="line">
+              <div class="img2">
+                <img src="https://flagsapi.com/US/flat/64.png" />
+              </div>
+              <select name="to" class="dropdown dropdown2"></select>
+            </div>
+          </div>
+        </div>
+        <div class="result"><p class="resultval"></p></div>
+        <button class="btn">Get Exchange Rate</button>
+      </div>
+    </div>
+    <script src="./java/script.js" async defer></script>
+  </body>
+</html>
